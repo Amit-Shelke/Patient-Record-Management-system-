@@ -1,0 +1,22 @@
+{
+  "version": "3.49.1.0",
+  "configurations": [
+    {
+      "type": "java",
+      "name": "DrAssistant",
+      "request": "launch",
+      "mainClass": "drassistant.DrAssistant",
+      "projectName": "Patient Record Management system_4cf1c86b"
+    },
+    {
+      "type": "java",
+      "name": "Launch Doctor Assistant",
+      "request": "launch",
+      "mainClass": "drassistant.DrAssistant",
+      "projectName": "Doctor Assistant in java",
+      "classPaths": [
+        "lib/sqlite-jdbc-<version>.jar"
+      ]
+    }
+  ]
+}
